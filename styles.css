@@ -1,0 +1,93 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBALES */
+.body {
+  font-size: 16px;
+  font-family: "Open Sans", "Roboto Slab", "Lora", sans-serif;
+  color: #333333;
+  background-color: #e9e5e3;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  box-sizing: border-box;
+}
+
+/* MAIN */
+.main {
+  grid-row: 2;
+}
+
+/* TITULOS Y TEXTOS*/
+h1 {
+  font-size: 2.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #274442;
+  background-color: none;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1:hover {
+  color: #e9e5e3;
+  background-color: #a3bab4;
+}
+
+h1:active {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e9e5e3;
+  background-color: #274442;
+  position: relative;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #e9e5e3;
+  background-color: #4F7375;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #333333;
+  background-color: none;
+  position: relative;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  font-size: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #333333;
+  background-color: none;
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+}
